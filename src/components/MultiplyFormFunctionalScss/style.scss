@@ -1,0 +1,19 @@
+.header {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__form {
+    border: blueviolet 2px solid;
+    display: flex;
+    justify-content: space-around;
+  }
+  &__mult-input {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(68, 0, 0);
+    color: rgb(255, 106, 0);
+    font-size: 18px;
+    font-style: bold;
+  }
+}
